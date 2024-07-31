@@ -32,6 +32,9 @@ export default function ReactPractice() {
                     setIsLoading(false)
                 },500)
             })
+            .catch((e)=>{
+                console.log(e);
+            })
     }, []);
 
 

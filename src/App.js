@@ -1,10 +1,10 @@
 import './App.css';
-import ReactPractice from './pages/reactPractice/ReactPractice';
+import AppRouter from './Router/Router';
 
 function App() {
   return (
     <div className="App">
-        <ReactPractice />        
+        <AppRouter />        
     </div>
   );
 }
