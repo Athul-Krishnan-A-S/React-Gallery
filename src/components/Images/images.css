@@ -1,0 +1,14 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    
+}
+.image-container{
+    width: 10%;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+.image-container img{
+    width: 100%;
+}
